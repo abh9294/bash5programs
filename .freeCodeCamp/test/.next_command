@@ -57,3 +57,25 @@ git config --global user.name “abh9294”
 git config --global user.email “abh9294@gmail.com”
 git remote add origin https://abh9294@github.com/abh9294/bash5programs.git
 touch questionnaire.sh
+git add questionnair.sh
+git add questionnaire.sh
+git push origin master
+git pull origin master
+git push origin master
+git remote set-url origin https://abh9294@github.com/abh9294/bash5programs.git
+git commit
+git commit questionnaire.sh -m "An questionnaire script"
+git push origin master
+git pull origin master
+git pull origin < branch-name > --allow-unrelated-histories
+git pull origin master --allow-unrelated-histories
+git pull origin master --allow-unrelated-histories -m allow merge
+git pull origin master --allow-unrelated-histories
+git pull origin master
+git push origin main
+git push origin master
+git add questionnaire.sh README.md
+git commit questionnaire.sh README.md
+git status
+git commit -a
+git commit -a -m "an test commit"
