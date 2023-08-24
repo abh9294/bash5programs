@@ -22,3 +22,38 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=$PROMPT_COMMAND
 echo hello bash
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+echo -n 31921943-b267-4d57-976d-eb55751cb0eb
+cat /proc/self/environ
+echo -n 31921943-b267-4d57-976d-eb55751cb0eb
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "$VSCODE_ENV_REPLACE" ]
+[ -n "$VSCODE_ENV_PREPEND" ]
+[ -n "$VSCODE_ENV_APPEND" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=$PROMPT_COMMAND
+git init
+git config – - global user.name “abh9294”
+git config -- global user.name “abh9294”
+git config --global user.name “abh9294”
+git config --global user.email “abh9294@gmail.com”
+git remote add origin https://abh9294@github.com/abh9294/bash5programs.git
+touch questionnaire.sh
